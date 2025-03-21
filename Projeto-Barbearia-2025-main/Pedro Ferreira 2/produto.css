@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(240, 241, 241);
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 250;
+    
+}
