@@ -25,7 +25,7 @@ nav a {
 
 .caixa {
     position: relative;
-    width: 200;
+    width: 900px;
     margin: 0 auto;
 }
 nav {
@@ -41,4 +41,12 @@ nav {
 }
 #CabeloBarba{
     width: 250;
+}
+.produto {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produto li {
+    display: inline-block;
 }
