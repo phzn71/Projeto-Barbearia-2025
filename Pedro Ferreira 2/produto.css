@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(219, 218, 218, 0.478);
+    background-color: rgba(157, 157, 157, 0.478);
     padding: 20x;
     margin: 10px;
 }
@@ -12,25 +12,33 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(37, 37, 37);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+     
+
 #logo {
-    width: 250;
+    width: 250px;
+    left: 50px;
+    position: relative;
     
 }
 
 .caixa {
     position: relative;
-    width: 900px;
+    width: 250px;
     margin: 0 auto;
 }
 nav {
     position: absolute;
-    top: 150px;
+    top: 65px;
     right: 100;
 }
 #Cabelo {
@@ -41,6 +49,7 @@ nav {
 }
 #CabeloBarba{
     width: 250;
+    
 }
 .produto {
     width: 1000px;
@@ -49,4 +58,53 @@ nav {
 }
 .produto li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produto li:hover {
+    border-color: hwb(0 0% 0% / 0.664);
+}
+
+.produto  li:active {
+    border-color: rgb(41, 53, 49);
+}
+
+.produto li:hover h2{
+    font-size: 34px;
+}
+
+.produto h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 50px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(157, 157, 157, 0.478);
+    padding: 40px 0;
+}
+
+footer img{
+    width: 200px;
+}
+
+.copyright {
+    color: #9500ff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
