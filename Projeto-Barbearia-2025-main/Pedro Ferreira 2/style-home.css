@@ -1,0 +1,28 @@
+main {
+    background-color: rgb(255, 255, 255);
+    
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+p {
+  color:rgb(0, 0, 0)
+}
+header {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.478);
+  padding: 40px 0;
+}
+
+footer img{
+  width: 200px;
+}
+
+.copyright {
+  color: #9500ff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
