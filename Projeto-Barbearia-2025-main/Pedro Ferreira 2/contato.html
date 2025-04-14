@@ -17,6 +17,50 @@
             </nav>
         </header>
         <main>
+            <form>
+                <label for="NomeSobrenome" class="input-padrão">Nome e Sobrenome </label>
+                <input type="text" id="NomeSobrenome" class="input-padrão">
+                 
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-padrão">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrão">
+
+                <label for="mensagem">mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email">
+                        Email 
+                    </label>
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone
+                    </label>
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                        Whatsapp
+                    </label>
+                </div>
+                <div> 
+                    <p> Qual horaio prefere ser atentido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Gostaria de receber novidades no email!!
+                </label>
+
+
+                <input type="submit" value="Enviar Formulario">
+            </form>
             
         </main>
         <footer>
